@@ -31,22 +31,36 @@ body {
   line-height: 175%;
 }
 
-.btn {
+.btn--body, .btn--main {
   padding: 1.2rem 3.2rem;
   border-radius: 2.5rem;
 
+  cursor: pointer;
+}
+
+.btn--main{
   background-color: var(--color--primary);
   color: var(--color--white);
-
-  cursor: pointer;
-
   border: none;
 }
 
-.btn:hover{
+.btn--main:hover{
   background-color: var(--color--primary__tint);
 }
 
-.btn:active{
+.btn--main:active{
   background-color: var(--color--primary);
+}
+
+.btn--body{
+  border: .1rem solid  var(--color--primary__tint);
+  background-color: #D8D4D5;
+}
+
+.btn--body:active{
+  border-color: var(--color--primary__tint);
+}
+
+.btn--body:hover{
+  border-color: var(--color--primary);
 }

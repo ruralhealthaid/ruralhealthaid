@@ -1,5 +1,5 @@
 .header {
-    height: 14.8rem;
+    height: 16vh;
     margin: 0 auto;
     margin: 0 5.4rem;
 
@@ -21,3 +21,4 @@
 .nav a:hover{
     color: var(--color--primary);
 }
+

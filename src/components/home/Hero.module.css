@@ -1,0 +1,43 @@
+.wrapper {
+    height: 84vh;
+    position: relative;
+}
+
+.hero-img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: fill;
+}
+
+.text {
+    padding: 3.2rem 8rem;
+
+    position: absolute;
+    top: 24.8rem;
+    right: 5.4rem;
+
+    width: 66.6rem;
+
+    background-color: #D9D9D970;
+    border-radius: 3.2rem;
+}
+
+.text h4{
+    color: var(--color--primary__tint);
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    line-height: 2.194rem;
+}
+
+.text p{
+    font-size: 3.2rem;
+    font-weight: 800;
+
+    line-height: 4rem;
+}
+
+.btn {
+    margin-top: 1.2rem;
+}

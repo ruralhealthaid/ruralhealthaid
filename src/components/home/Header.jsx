@@ -15,7 +15,7 @@ const Header = () => {
         <a href="/contact-us">CONTACT US</a>
       </nav>
 
-      <button className="btn">DONATE</button>
+      <button className="btn--main">DONATE</button>
     </header>
   );
 };
