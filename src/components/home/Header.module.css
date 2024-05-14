@@ -1,0 +1,23 @@
+.header {
+    height: 14.8rem;
+    margin: 0 auto;
+    margin: 0 5.4rem;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.nav a:link, .nav a:visited {
+    text-decoration: none;
+    color: var(--color--black);
+} 
+
+.nav a:hover{
+    color: var(--color--primary);
+}

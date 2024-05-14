@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Anowam */
+
+:root {
+  /* COLORS */
+  --color--primary: #E05E35;
+  --color--primary__tint: #FF4207;
+
+  --color--white: #fff;
+
+  --color--black: #000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color--black);
+  font-size: 1.8rem;
+  line-height: 175%;
+}
+
+.btn {
+  padding: 1.2rem 3.2rem;
+  border-radius: 2.5rem;
+
+  background-color: var(--color--primary);
+  color: var(--color--white);
+
+  cursor: pointer;
+
+  border: none;
+}
+
+.btn:hover{
+  background-color: var(--color--primary__tint);
+}
+
+.btn:active{
+  background-color: var(--color--primary);
 }
