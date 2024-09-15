@@ -1,31 +1,40 @@
 .wrapper {
-    margin: 4.8rem 0;
+    margin: 8rem 10rem;
 
     display: grid;
+    gap: 9.8rem;
     grid-template-columns: 1fr 1fr;
+}
+
+.what-we-do .body{
+    padding: 3rem 0 5rem 0;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.btn{
+    align-self: flex-start;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.features li{
+    display: flex;
+    gap: 1.5rem;
     align-items: center;
+    box-shadow: .2rem .4rem 1.2rem .1rem rgba(25, 34, 69, 37%);
+    border-radius: 3rem;
+    padding: 1.3rem 4.2rem 1.3rem 2rem;
 }
 
-.text {
-    margin-left: 4rem;
-    max-width: 64rem;
-}
-
-.wrapper h3{
-    font-size: 3.2rem ;
-    font-weight: 700;
-
-    margin-bottom: 1.2rem;
-}
-
-.wrapper p{
-    font-size: 2.2rem;
-    line-height: 2.68rem;
-
-    margin-bottom: 1.2rem;
-}
-
-.about-img{
-    width: 100%;
-    height: auto;
+.feat-text h4 {
+    margin-bottom: 1.1rem;
 }
