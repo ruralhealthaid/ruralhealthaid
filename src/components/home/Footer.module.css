@@ -1,0 +1,120 @@
+.footer{
+    padding: 8rem 10rem;
+}
+
+.main-ul{
+    margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-column{
+    max-width: 36rem;
+}
+
+.logo-wrapper{
+    max-width: 30rem;
+    margin-bottom: 3.5rem;
+}
+
+.logo{
+    width: 30.4rem;
+    object-fit: contain;
+    margin-bottom: 3rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    object-fit: contain;
+}
+
+.contact-ul h5{
+    margin-bottom: .5rem;
+}
+
+.contact-ul{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-li{
+    display: flex;
+    gap: .5rem;
+}
+
+.contact-li span{
+    font-size: 1.8rem;
+}
+
+.contact-header{
+    font-weight: 700;
+}
+
+.contact-body{
+    width: 24.9rem;
+    font-weight: 300;
+}
+
+.site-link{
+    max-width: 23.6rem;
+}
+
+.site-link a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--color--black);
+    font-weight: 100;
+}
+
+.site-link a:hover{
+    text-decoration: underline;
+}
+
+.column-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form h5{
+    max-width: 26.9rem;
+    margin-bottom: 4.2rem;
+}
+
+.form input {
+    width: 29.5rem;
+    font-size: 2rem;
+    padding: 1.3rem 2.4rem;
+    border-radius: 1.5rem;
+    border-width: 1px;
+    margin-bottom: 2.2rem;
+}
+
+.form button{
+    display: block;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    padding: 1.3rem 3.7rem;
+    color: var(--color--white);
+    background-color: var(--color--violet);
+    cursor: pointer;
+}
+
+.copyright{
+    padding: 1.3rem 4.8rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.copyright p a, .copyright p a:visited{
+    color: var(--color--black);
+    font-size: 1.8rem;
+
+}

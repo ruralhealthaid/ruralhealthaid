@@ -38,6 +38,10 @@
     margin-bottom: 2rem;
 }
 
+.service2 .service-desc{
+    text-align: right;
+}
+
 .btn-more-wrapper{
     text-align: right;
 }

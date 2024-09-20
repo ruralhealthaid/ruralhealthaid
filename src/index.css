@@ -7,8 +7,10 @@
   --color--violet: #192245;
   --color--white: #fff;
   --color--milk-bg: #F7F4F4;
-
+  --color--violet:#192245;
   --color--black: #000;
+  --color--light-yellow: #F2E137;
+  --color--dark-yellow: #dfd028;
 }
 
 html{
@@ -46,6 +48,11 @@ h3{
 h4{
   color: var(--color--primary);
   font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h5{
+  font-size: 2rem;
   font-weight: 500;
 }
 

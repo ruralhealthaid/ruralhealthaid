@@ -5,6 +5,9 @@ import About from "./About";
 import Metrics from "./Metrics";
 import Beneficiaries from "./Beneficiaries";
 import Services from "./Services";
+import Approach from "./Approach";
+import JoinUs from "./JoinUs";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -15,6 +18,9 @@ const HomePage = () => {
       <Metrics />
       <Beneficiaries />
       <Services />
+      <Approach />
+      <JoinUs />
+      <Footer />
     </div>
   );
 };
