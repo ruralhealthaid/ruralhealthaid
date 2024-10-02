@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
-import MissionVission from "./MissionVission";
+import MissionVission from "./MissionVision";
 
 const AboutUs = () => {
   return (
