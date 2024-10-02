@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 8rem 10rem 8rem 8rem;
+}
+
+.wrapper h3{
+    margin-bottom: 6.4rem;
+}
+
+.core-values{
+    display: grid;
+    grid-template-columns: repeat(3, 36.6rem);
+    justify-content: space-between;
+    row-gap: 6.4rem;
+}
+
+.icon{
+    margin-bottom: 2rem;
+    height: 9.6rem;
+}
+
+.value h4{
+    margin-bottom: 1.5rem;
+}
