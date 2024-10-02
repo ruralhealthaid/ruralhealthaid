@@ -21,8 +21,7 @@ function App() {
       element: <AboutUs />,
     },
   ]);
-  // return <RouterProvider router={router}></RouterProvider>;
-  return <h3>I am working</h3>;
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;

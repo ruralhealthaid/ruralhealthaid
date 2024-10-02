@@ -12,7 +12,7 @@ const MissionVision = () => {
           resilience.
         </p>
       </div>
-      <div className={styles.mission}>
+      <div className={styles.vision}>
         <h3>Our Vision</h3>
         <p>
           To create a world where every rural family has equal access to
