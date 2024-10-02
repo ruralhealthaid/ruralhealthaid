@@ -1,0 +1,49 @@
+.wrapper {
+    position: relative;
+}
+
+.wrapper, .bg, .linear-box{
+    height: 73.3rem;
+    width: 100%;
+}
+
+.bg, .linear-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 73.3rem;
+}
+
+.bg{
+    z-index: -15;
+}
+
+.linear-box{
+    z-index: -10;
+    background-image: linear-gradient(#D8D4D5, rgba(222, 118, 85, 0.4));
+}
+
+.heading{
+    position: absolute;
+   
+    right: 7.8rem;
+    bottom: -12.6rem;
+
+    width: 68.2rem;
+    height: 25.2rem;
+    background-color: var(--color--violet);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 2.5rem;
+}
+
+.heading h1{
+    font-size: 7.2rem;
+    font-weight: bold;
+    color: var(--color--white);
+}
