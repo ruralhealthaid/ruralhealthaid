@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 4rem 0 4rem 8rem;
+}
+
+.structure-funding{
+    display: grid;
+    grid-template-columns: 51.6rem 72rem;
+    justify-content: space-between;
+}
+
+.funding h4, .structure h4, .sustainability h4{
+    margin-bottom: 1.5rem;
+    width: 21rem;
+    font-weight: bold;
+}
+
+.structure{
+    margin-top: 4rem;
+}
+
+.funding{
+    padding: 4rem 8rem 4rem 4rem;
+    background-color: var(--color--milk-bg);
+}
+
+.sustainability{
+    margin: 4rem 14.6rem 4rem 0;
+}

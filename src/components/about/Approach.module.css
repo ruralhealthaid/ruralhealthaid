@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: var(--color--violet);
+    padding: 9.9rem 7.4rem 11.6rem 8rem;
+    color: var(--color--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper h2{
+    font-size: 6.4rem;
+    font-weight: 700;
+    max-width: 36.6rem;
+    color: var(--color--white);
+}
+
+.wrapper p{
+    max-width: 80rem;
+}

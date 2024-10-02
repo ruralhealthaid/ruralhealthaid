@@ -7,7 +7,7 @@ import Beneficiaries from "./Beneficiaries";
 import Services from "./Services";
 import Approach from "./Approach";
 import JoinUs from "./JoinUs";
-import Footer from "./Footer";
+import Footer from "../ui/Footer";
 
 const HomePage = () => {
   return (
