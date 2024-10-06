@@ -8,7 +8,7 @@ import Team from "./Team";
 import JoinUs from "./JoinUs";
 import Footer from "../ui/Footer";
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <div>
       <Hero />
@@ -23,4 +23,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsPage;

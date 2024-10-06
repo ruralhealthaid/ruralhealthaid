@@ -4,7 +4,7 @@ import Footer from "../ui/Footer";
 import Hero from "./Hero";
 import Contacts from "./Contacts";
 
-const ContactUs = () => {
+const ContactUsPage = () => {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUsPage;

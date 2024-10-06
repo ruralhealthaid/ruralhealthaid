@@ -4,8 +4,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from "./components/home/HomePage";
-import AboutUs from "./components/about/AboutUs";
-import ContactUs from "./components/contact-us/ContactUs";
+import AboutUsPage from "./components/about/AboutUsPage";
+import ContactUsPage from "./components/contact-us/ContactUsPage";
+import DonatePage from "./components/donate/DonatePage";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,11 +20,15 @@ function App() {
     },
     {
       path: "/about-us",
-      element: <AboutUs />,
+      element: <AboutUsPage />,
     },
     {
       path: "/contact-us",
-      element: <ContactUs />,
+      element: <ContactUsPage />,
+    },
+    {
+      path: "/donate",
+      element: <DonatePage />,
     },
   ]);
   return <RouterProvider router={router}></RouterProvider>;

@@ -5,9 +5,7 @@ import styles from "./Contacts.module.css";
 const Contacts = () => {
   return (
     <div className={styles.wrapper}>
-      <div id="map" className={styles.map}>
-        {/* <Map /> */}
-      </div>
+      <div className={styles.map}>{/* <Map /> */}</div>
       <div className={styles.contacts}>
         <p className={styles["header--loc"]}>Our Location</p>
         <h1 className={styles["main-header"]}>Connect with Us</h1>
