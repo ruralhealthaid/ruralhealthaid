@@ -1,20 +1,22 @@
 import React from "react";
 import styles from "./Header.module.css";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <a href="/home">
+      <Link to="/home">
         <img className={styles.logo} src={logo} alt="logo" />
-      </a>
+      </Link>
       <nav className={styles.nav}>
-        <a href="/home">HOME</a>
-        <a href="/about-us">ABOUT US</a>
-        <a href="/programs">PROGAMS</a>
-        <a href="/contact-us">CONTACT US</a>
+        <Link to="/home">HOME</Link>
+        <Link to="/about-us">ABOUT US</Link>
+        <Link to="/programs">PROGAMS</Link>
+        <Link to="/contact-us">CONTACT US</Link>
       </nav>
-
-      <button className="btn--main">DONATE</button>
+      <Link to="/donate" className={styles.donate}>
+        <button className="btn--main">DONATE</button>
+      </Link>
     </header>
   );
 };
