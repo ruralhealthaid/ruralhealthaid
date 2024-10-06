@@ -11,7 +11,7 @@ const Contacts = () => {
         <h1 className={styles["main-header"]}>Connect with Us</h1>
         <h4>Headquarters</h4>
         <p className={styles.location}>
-          Rural Health Aid Initiative (RHAI)
+          Rural HealthAid (RHAI)
           <br /> BLK 8E, SSNIT Flats,
           <br />
           Tamale,

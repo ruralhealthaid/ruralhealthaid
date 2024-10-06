@@ -8,9 +8,9 @@ const About = () => {
       <div className={styles["what-we-do"]}>
         <h3>WHAT WE DO</h3>
         <p className={`body ${styles.body}`}>
-          Rural Health Aid Initiative (RHAI) is a non-governmental organization
-          (NGO) dedicated to improving maternal and family health outcomes in
-          rural communities with low incomes and limited access to healthcare
+          Rural HealthAid (RHAI) is a non-governmental organization (NGO)
+          dedicated to improving maternal and family health outcomes in rural
+          communities with low incomes and limited access to healthcare
           facilities. Founded in 2024, RHAI provides comprehensive health aid
           services that empower families, promote preventive care, and foster
           community resilience regardless of their socio-economic status.

@@ -61,7 +61,9 @@ const DonateForm = () => {
         <button type="submit" className={styles["btn--submit"]}>
           Donate
         </button>
-        <p className={styles["thank-you"]}>Thank You for Your Donation!!!</p>
+        <p className={styles["thank-you"]}>
+          We are very much grateful to you for your Donation
+        </p>
       </form>
     </section>
   );

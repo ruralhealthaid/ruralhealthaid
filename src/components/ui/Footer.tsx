@@ -16,7 +16,7 @@ const Footer = () => {
       <ul className={styles["main-ul"]}>
         <li className={`${styles["logo-column"]} ${styles.column}`}>
           <div className={styles["logo-wrapper"]}>
-            <img className={styles.logo} src={logoImg} alt="rural health aid" />
+            <img className={styles.logo} src={logoImg} alt="Rural HealthAid" />
             <hr className={styles.hr} />
             <div className={styles.socials}>
               <img
@@ -71,25 +71,20 @@ const Footer = () => {
           <ul className={styles["column-ul"]}>
             <h5>About Us</h5>
             <li className={styles["site-link"]}>
-              <a href="/mission">Mission</a>
+              <a href="/about/#mission">Mission</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/vision">Vision</a>
+              <a href="/about/#vision">Vision</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/core-values">Core Values</a>
+              <a href="/about/#core-values">Core Values</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/services">Services</a>
+              <a href="/programs">Programs</a>
             </li>
+
             <li className={styles["site-link"]}>
-              <a href="/geographical-focus">Geographical Focus</a>
-            </li>
-            <li className={styles["site-link"]}>
-              <a href="/organizational-structure"> Organizational Structure</a>
-            </li>
-            <li className={styles["site-link"]}>
-              <a href="/funding-and-support">Funding and Support</a>
+              <a href="/about/team"> Team </a>
             </li>
           </ul>
         </li>
@@ -99,28 +94,22 @@ const Footer = () => {
             <h5>Programs</h5>
 
             <li className={styles["site-link"]}>
-              <a href="/maternal-health-clinics">Maternal Health Clinics</a>
+              <a href="/programs">Maternal Health Clinics</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/health-education-workshops">
-                Health Education Workshops
-              </a>
+              <a href="/programs">Health Education Workshops</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/mobile-health-units">Mobile Health Units</a>
+              <a href="/programs">Mobile Health Units</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/community-outreachs">Community Outreach</a>
+              <a href="/programs">Community Outreach</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/advocacy and policy engagements">
-                Advocacy and Policy Engagement
-              </a>
+              <a href="/programs">Advocacy and Policy Engagement</a>
             </li>
             <li className={styles["site-link"]}>
-              <a href="/child-health-and-nutrition">
-                Child Health and Nutrition
-              </a>
+              <a href="/programs">Child Health and Nutrition</a>
             </li>
           </ul>
         </li>
