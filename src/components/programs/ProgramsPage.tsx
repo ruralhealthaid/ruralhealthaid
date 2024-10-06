@@ -1,18 +1,16 @@
 import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
-import Hero from "./Hero";
-import DonateForm from "./DonateForm";
+import Programs from "./Programs";
 
-const DonatePage = () => {
+const ProgramsPage = () => {
   return (
     <div>
       <Header />
-      <Hero />
-      <DonateForm />
+      <Programs />
       <Footer />
     </div>
   );
 };
 
-export default DonatePage;
+export default ProgramsPage;

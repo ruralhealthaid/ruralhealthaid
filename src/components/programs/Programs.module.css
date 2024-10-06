@@ -1,0 +1,49 @@
+.section {
+    background-color: var(--color--milk-bg);
+    padding: 4rem 10.2rem 4rem 9.8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.section1 h3, .section2 h3{
+    margin-bottom: 3rem;
+}
+
+.service1, .service2{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.service-desc img{
+    width: 62.2rem;
+    height: 35.2rem;
+}
+
+.service-desc p{
+    width: 54rem;
+}
+
+.service1 img{
+    border-radius: 0rem 2.5rem 2.5rem 2.5rem;
+}
+
+.service2 img{
+    border-radius: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.service-desc h2{
+    margin-bottom: 2rem;
+}
+
+.service2 .service-desc{
+    text-align: right;
+}
+
+.btn-more-wrapper{
+    text-align: right;
+}
+
+

@@ -3,9 +3,13 @@ import styles from "./Hero.module.css";
 import contactImg from "../assets/contact-img.png";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
+import CustomPhoneInput from "../ui/CustomPhoneInput";
 
 const Hero = () => {
-  const [phone, setPhone] = useState<string | undefined>(undefined);
+    const [phone, setPhone] = useState<string | undefined>(undefined);
+    const changePhoneInput = (phone: string) => {
+      setPhone(phone);
+    };
   return (
     <div className={styles.wrapper}>
       <div className={styles.desc}>
@@ -59,11 +63,11 @@ const Hero = () => {
 
             <input type="email" name="email" placeholder="email" required />
           </div>
-          <PhoneInput
+          <CustomPhoneInput
             className={styles["phone-class"]}
             inputClassName={styles["phone-input"]}
             value={phone}
-            onChange={(newPhone) => setPhone(newPhone)}
+            onSetPhone={changePhoneInput}
           />
           <textarea
             className={styles.textarea}

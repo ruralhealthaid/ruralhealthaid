@@ -18,7 +18,7 @@ const Hero = () => {
             help us to better the health of children and pregnant women.
           </p>
 
-          <a href="/donate/#donate" className={styles["donate-btn"]}>
+          <a href="/donate/#donate-form" className={styles["donate-btn"]}>
             <button className={`btn--main ${styles.btn}`}>
               <span>DONATE</span>
               <svg

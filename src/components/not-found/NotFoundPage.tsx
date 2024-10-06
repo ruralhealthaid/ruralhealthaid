@@ -1,18 +1,16 @@
 import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
-import Hero from "./Hero";
-import DonateForm from "./DonateForm";
+import styles from "./NotFoundPage.module.css";
 
-const DonatePage = () => {
+const NotFoundPage = () => {
   return (
     <div>
       <Header />
-      <Hero />
-      <DonateForm />
+      <div className={styles.wrapper}>Page not found</div>
       <Footer />
     </div>
   );
 };
 
-export default DonatePage;
+export default NotFoundPage;
