@@ -30,7 +30,7 @@ const Services = () => {
         <img src={serviceImg} alt="a tailor" />
       </div>
       <div className={styles["btn-more-wrapper"]}>
-        <a href="/services" className={styles["btn-more"]}>
+        <a href="/programs" className={styles["btn-more"]}>
           Read <span className={styles.more}>More</span>
         </a>
       </div>
