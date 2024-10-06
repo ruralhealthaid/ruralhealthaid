@@ -3,10 +3,11 @@
 :root {
   /* COLORS */
   --color--primary: #E05E35;
-  --color--primary__tint: #FF4207;
+  --color--primary__tint: #b34b2a;
   --color--violet: #192245;
   --color--white: #fff;
   --color--milk-bg: #F7F4F4;
+  --color--grey: #B5B5B5;
   --color--black: #000;
   --color--light-yellow: #F2E137;
   --color--dark-yellow: #dfd028;
@@ -31,6 +32,8 @@ body {
   color: var(--color--black);
   font-size: 1.8rem;
 }
+
+#map { height: 180px; }
 
 h1{
   color: var(--color--primary);

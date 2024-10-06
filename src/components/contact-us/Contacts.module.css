@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    gap: 7rem;
+
+    padding: 8.4rem 8rem;
+}
+
+.map{
+    width: 74.7rem;
+    height: 65.6rem;
+    background-color: var(--color--grey);
+    border-radius: 5rem;
+}
+
+.contacts{
+    margin-top: 11.7rem;
+}
+
+.header--loc{
+    margin-bottom: 2.5rem;
+}
+
+.main-header {
+    margin-bottom: 6.9rem;
+    color: var(--color--black);
+    font-weight: 500;
+}
+
+.contacts h4{
+    margin-bottom: 1.5rem;
+    color: var(--color--black);
+    font-weight: 600;
+}
+
+.location{
+    font-weight: lighter;
+    line-height: 30px;
+}
