@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Hero.module.css";
 import contactImg from "../assets/contact-img.png";
-import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import CustomPhoneInput from "../ui/CustomPhoneInput";
 

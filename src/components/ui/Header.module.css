@@ -23,7 +23,7 @@
     text-decoration: none;
     color: var(--color--black);
     font-size: 2rem;
-    font-weight: lighter;
+    font-weight: normal;
 } 
 
 .nav a:hover{
