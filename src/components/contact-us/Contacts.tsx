@@ -1,11 +1,8 @@
-import React from "react";
 import styles from "./Contacts.module.css";
-// import Map from "./Map";
 
 const Contacts = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.map}>{/* <Map /> */}</div>
       <div className={styles.contacts}>
         <p className={styles["header--loc"]}>Our Location</p>
         <h1 className={styles["main-header"]}>Connect with Us</h1>

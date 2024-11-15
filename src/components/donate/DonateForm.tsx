@@ -1,9 +1,26 @@
-import React, { useState } from "react";
+import React, { FormEvent, useState } from "react";
 import styles from "./DonateForm.module.css";
-import CustomPhoneInput from "../ui/CustomPhoneInput";
+import { useMutation } from "@tanstack/react-query";
+import { postPartnerRequest } from "../../utils/http/http";
+import { PartnerRequestType } from "../../types/types";
+import Spinner from "../ui/Spinner";
 
 const DonateForm = () => {
-  const [phone, setPhone] = useState<string | undefined>(undefined);
+  const { mutate, isPending, isSuccess, isError, error } = useMutation({
+    mutationFn: postPartnerRequest,
+  });
+
+  isError && console.log("Error: ", error);
+
+  const formSubmitHandler = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const fd = Object.fromEntries(formData);
+    const data = {
+      ...fd,
+    } as PartnerRequestType;
+    mutate(data);
+  };
 
   return (
     <section id="donate-form" className={styles.wrapper}>
@@ -14,56 +31,74 @@ const DonateForm = () => {
         </h2>
         <div className={styles.underline}></div>
       </header>
-      <form id="donate-form" className={styles.form}>
-        <div className={styles["col--2"]}>
+      <form
+        id="donate-form"
+        className={styles.form}
+        onSubmit={formSubmitHandler}
+      >
+        {isSuccess && (
+          <p className={styles.success}>
+            Thank you for contacting us
+            <br />
+            Our team will reach out to you shortly
+          </p>
+        )}
+        {isError && (
+          <p className="error-block">Error sending message. please try again</p>
+        )}
+        {isPending && (
+          <div className="modal">
+            <Spinner />
+          </div>
+        )}
+        <>
+          <div className={styles["col--2"]}>
+            <div className={styles["input-wrapper"]}>
+              <label htmlFor="firstName">Name of Company</label>
+              <input
+                type="text"
+                name="companyName"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div className={styles["input-wrapper"]}>
+              <label htmlFor="lastName">Name of contact person</label>
+              <input
+                type="text"
+                name="contactPerson"
+                placeholder="Conatct Person Name"
+                required
+              />
+            </div>
+          </div>
           <div className={styles["input-wrapper"]}>
-            <label htmlFor="firstName">First Name</label>
+            <label htmlFor="email">Contact Person's Email</label>
             <input
-              type="text"
-              name="firstName"
-              placeholder="first name"
+              type="email"
+              name="contactEmail"
+              placeholder="Contact Person's Email"
               required
             />
           </div>
+
           <div className={styles["input-wrapper"]}>
-            <label htmlFor="lastName">Last Name</label>
-            <input
-              type="text"
-              name="lastName"
-              placeholder="last name"
+            <label htmlFor="amount">Message</label>
+            <textarea
+              className={styles.textarea}
+              name="message"
+              placeholder="message"
               required
             />
           </div>
-        </div>
-        <div className={styles["input-wrapper"]}>
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" placeholder="email" required />
-        </div>
-        <div className={styles["input-wrapper"]}>
-          <label htmlFor="phone">Phone Number</label>
 
-          <CustomPhoneInput
-            // className={styles["phone-class"]}
-            inputClassName={styles["phone-input"]}
-            value={phone}
-            onSetPhone={(phone) => setPhone(phone)}
-          />
-        </div>
-
-        <div className={styles["input-wrapper"]}>
-          <label htmlFor="amount">Donation Amount</label>
-          <input type="number" name="amount" placeholder="amount" required />
-        </div>
-        <div className={styles["checkbox-wrapper"]}>
-          <input type="checkbox" name="anonymous" />
-          <label htmlFor="anonymous">I would like to donate anonymously.</label>
-        </div>
-        <button type="submit" className={styles["btn--submit"]}>
-          Donate
-        </button>
-        <p className={styles["thank-you"]}>
-          We are very much grateful to you for your Donation
-        </p>
+          <button type="submit" className={styles["btn--submit"]}>
+            Send Message
+          </button>
+          <p className={styles["thank-you"]}>
+            We are very much grateful to you for your Donation
+          </p>
+        </>
       </form>
     </section>
   );

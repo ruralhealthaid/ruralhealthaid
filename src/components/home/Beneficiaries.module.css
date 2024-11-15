@@ -13,6 +13,7 @@
 
 .benefit{
     width: 37.4rem;
+    /* background-color: red; */
 }
 
 
@@ -31,4 +32,19 @@
 
 .img3{
     border-radius: 3rem 3rem 3rem 0;
+}
+
+
+
+@media (max-width: 83.69em) {
+    .benefit{
+        width: 30rem;
+        /* background-color: green; */
+    }
+
+    .benefit img{
+        height: 15rem;
+        width: 100%;
+        object-fit: contain;
+    }
 }

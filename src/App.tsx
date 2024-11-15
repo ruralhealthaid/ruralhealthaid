@@ -9,6 +9,8 @@ import ContactUsPage from "./components/contact-us/ContactUsPage";
 import DonatePage from "./components/donate/DonatePage";
 import NotFoundPage from "./components/not-found/NotFoundPage";
 import ProgramsPage from "./components/programs/ProgramsPage";
+import { QueryClientProvider } from "@tanstack/react-query";
+import { queryClient } from "./utils/http/http";
 
 function App() {
   const router = createBrowserRouter([
@@ -41,7 +43,11 @@ function App() {
       element: <NotFoundPage />,
     },
   ]);
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />;
+    </QueryClientProvider>
+  );
 }
 
 export default App;
