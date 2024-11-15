@@ -2,8 +2,8 @@ import { QueryClient } from "@tanstack/react-query";
 import { ContactUsType, PartnerRequestType } from "../../types/types";
 
 export const queryClient = new QueryClient();
-// export const API_BASE_URL = "https://rha-backend.onrender.com";
-const API_BASE_URL = "http://localhost:3333";
+const API_BASE_URL = "https://rha-backend.onrender.com";
+// const API_BASE_URL = "http://localhost:3333";
 
 export const postContactUs = async (data: ContactUsType) => {
   const res = await fetch("http://localhost:3333/contact-us", {
