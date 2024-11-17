@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../ui/Header";
 import Hero from "./Hero";
 import About from "./About";
@@ -11,7 +10,7 @@ import Footer from "../ui/Footer";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <About />
@@ -21,7 +20,7 @@ const HomePage = () => {
       <Approach />
       <JoinUs />
       <Footer />
-    </div>
+    </>
   );
 };
 

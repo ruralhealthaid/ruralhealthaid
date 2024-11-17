@@ -37,6 +37,8 @@ body {
   font-style: normal;
 }
 
+
+
 #map { height: 180px; }
 
 .error-block{
@@ -157,5 +159,10 @@ p{
 @media (max-width: 75em) {
     html{
       font-size: 60%;
+    }
+}
+@media (max-width: 60em) {
+    html{
+      font-size: 55%;
     }
 }
