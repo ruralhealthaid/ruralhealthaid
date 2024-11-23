@@ -47,3 +47,36 @@
     font-weight: bold;
     color: var(--color--white);
 }
+
+
+@media (max-width: 50em) {
+    .wrapper, .bg, .linear-box{
+        height: 73.3svh;
+    }
+
+    .heading{
+        left: 50%;
+        bottom: -25%;
+
+        transform: translate(-50%, -50%);
+        max-width: 40rem;
+        max-height: 15rem;
+    }
+
+    .heading h1{
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 25em) {
+    .heading h1{
+        font-size: 2rem;
+    }
+
+    .heading{
+        max-width: 20rem;
+        max-height: 10rem;
+
+        bottom: -15%;
+    }
+}

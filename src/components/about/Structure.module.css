@@ -26,3 +26,61 @@
 .sustainability{
     margin: 4rem 14.6rem 4rem 0;
 }
+
+@media (max-width: 82.75em) {
+    .structure-funding{
+        grid-template-columns: 41.6rem 62rem;
+    }
+}
+
+
+@media (max-width: 67.0625em) {
+    .structure-funding{
+        grid-template-columns: 40rem 46rem;
+    }
+
+    .wrapper{
+        padding-left: 4rem;
+    }
+
+    .funding{
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 50em) {
+    .wrapper{
+        padding-right: 4rem;
+    }
+
+    .structure-funding{
+       display: flex;
+       flex-direction: column;
+       gap: 3.4rem;
+    }
+
+    .structure{
+        margin-top: 0;
+    }
+
+    .structure, .funding, .sustainability{
+        padding: 4rem;
+        background-color: var(--color--milk-bg);
+    }
+    
+    .sustainability{
+        margin: 0;
+        margin-top: 3.4rem;
+    }
+}
+
+
+@media (max-width:17.1875em) {
+    .wrapper{
+        padding: 1rem;
+    }
+
+    .structure, .funding, .sustainability{
+        padding: 2rem;
+    }
+}

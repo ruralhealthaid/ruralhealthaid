@@ -1,6 +1,6 @@
 .hr{
     margin: 0 auto;
-    width: 124rem;
+    width: 100%;
     margin-bottom: 4rem;
 }
 
@@ -18,6 +18,7 @@
 .team-members{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .team-member{
@@ -25,13 +26,12 @@
 }
 
 .img {
-    width: 32rem;
-    /* z-index: -1; */
+    width: 28rem;
 }
 
 .text{
     padding: 2rem 3rem;
-    width: 34rem;
+    width: 28rem;
     height: 12.4rem;
     
     position: absolute;
@@ -40,8 +40,6 @@
     
     background-color: var(--color--white);
     box-shadow: 0 .4rem 1.2rem .4rem rgba(0,0,0,.25);
-
-    /* z-index: 100; */
 }
 
 .name{
@@ -50,4 +48,64 @@
 
 .designation{
     font-weight: normal;
+}
+
+@media (max-width:70.25em) {
+    .img {
+        width: 28rem;
+    }
+
+    .text{
+        width: 20rem;
+        height: 9.6rem;
+        right: 0rem;
+        bottom: -7.6rem;
+    }
+}
+
+
+@media (max-width:61.25em) {
+    .img{
+        width: 20rem;
+    }
+
+    .wrapper{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .text{
+        position:initial;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:37.5em) {
+    .team-members{
+        text-align: center;
+    }
+
+    .team-member:last-child{
+        margin-top: 3.4rem;
+    }
+}
+
+
+@media (max-width:25em) {
+    .wrapper h1{
+        font-size: 2.8rem;
+    }
+    
+    .team-members{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 3.2rem;
+    }
+
+    .team-member:last-child{
+        margin-top: 0rem;
+    }
 }

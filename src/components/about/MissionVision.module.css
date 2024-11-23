@@ -16,3 +16,25 @@
 .mission{
     margin-bottom: 4.7rem;
 }
+
+@media (max-width:50em) {
+    .wrapper{
+        padding: 4rem;
+    }
+
+    .mission p, .vision p{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:17.1875em) {
+    .wrapper{
+        margin: 1rem;
+        margin-top: 8rem;
+        padding: 2rem;
+    }
+
+    .mission p, .vision p{
+        font-size: 1.6rem;
+    }
+}

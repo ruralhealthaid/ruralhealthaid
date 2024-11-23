@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CoreValues.module.css";
-import innocationIcon from "../assets/innovation-icon.png";
+import innovationIcon from "../assets/innovation-icon.png";
 import compassionIcon from "../assets/compassion-icon.png";
 import collaborationIcon from "../assets/collaboration-icon.png";
 import empowermentIcon from "../assets/empowerment-icon.png";
@@ -12,7 +12,7 @@ const CoreValues = () => {
       <h3>Our Core Values</h3>
       <ul className={styles["core-values"]}>
         <li className={styles.value}>
-          <img className={styles.icon} src={innocationIcon} alt="innovation" />
+          <img className={styles.icon} src={innovationIcon} alt="innovation" />
           <h4>Innovation</h4>
           <p className={styles.text}>
             We are committed to exploring innovative solutions and approaches to

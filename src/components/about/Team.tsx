@@ -19,14 +19,14 @@ const Team = () => {
             </div>
           </li>
           <li className={styles["team-member"]}>
-            <img src={teamMember2} className={styles.img} alt="team member 1" />
+            <img src={teamMember2} className={styles.img} alt="team member 2" />
             <div className={styles.text}>
               <p className={styles.name}>John Doe</p>
               <p className={styles.designation}>Designation</p>
             </div>
           </li>
           <li className={styles["team-member"]}>
-            <img src={teamMember3} className={styles.img} alt="team member 1" />
+            <img src={teamMember3} className={styles.img} alt="team member 3" />
             <div className={styles.text}>
               <p className={styles.name}>John Doe</p>
               <p className={styles.designation}>Designation</p>
