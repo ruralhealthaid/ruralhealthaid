@@ -9,6 +9,7 @@
 .ul{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .benefit{
@@ -46,5 +47,64 @@
         height: 15rem;
         width: 100%;
         object-fit: contain;
+    }
+}
+
+/* @media (max-width: 68.75em) {
+   
+} */
+
+@media (max-width: 65.625em) {
+   .ul{
+        justify-content: center;
+        gap: 5.6rem;
+   }
+
+   .benefit p{
+        text-align: center;
+        font-size: 1.8rem;
+   }
+}
+
+
+@media (max-width: 37.5em) {
+   .wrapper h3{
+        text-align: center;
+   }
+}
+
+@media (max-width: 17.1875em) {
+    .wrapper {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+   .wrapper h3{
+        font-size: 1.8rem;
+        width: 15rem;
+        margin-right: 0;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+   }
+
+   .ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
+
+   .benefit{
+        width: auto;
+   }
+
+   .benefit img{
+        height: 12rem;
+        border-radius: 3rem;
+   }
+
+    .benefit p, .benefit p strong{
+        font-size: 1.6rem;
     }
 }

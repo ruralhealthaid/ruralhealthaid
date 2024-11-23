@@ -41,3 +41,53 @@
 .btn:hover{
     border-color: var(--color--dark-yellow);
 }
+
+
+@media (max-width: 67.1875em) {
+    .ul li{
+        font-size: 1.8rem;
+    }
+
+    .btn{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 50em) {
+    .section{
+        padding-right: 5.6rem;
+        padding-left: 5.6rem;
+    }
+
+    .ul-btn{
+        display: block;
+    }
+
+    .btn{
+        margin-top: 2.8rem;
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+@media (max-width: 50em) {
+    .section{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:17.1875rem) {
+    .sec-desc, .ul li{
+        font-size: 1.6rem;   
+    }
+
+    .ul-btn{
+        margin-right: 2rem;
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+}
