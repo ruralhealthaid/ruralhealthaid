@@ -93,11 +93,8 @@ const DonateForm = () => {
           </div>
 
           <button type="submit" className={styles["btn--submit"]}>
-            Send Message
+            Partner
           </button>
-          <p className={styles["thank-you"]}>
-            We are very much grateful to you for your Donation
-          </p>
         </>
       </form>
     </section>
