@@ -1,5 +1,5 @@
-import React, { FormEvent, useState } from "react";
-import styles from "./DonateForm.module.css";
+import { FormEvent } from "react";
+import styles from "./PartnerForm.module.css";
 import { useMutation } from "@tanstack/react-query";
 import { postPartnerRequest } from "../../utils/http/http";
 import { PartnerRequestType } from "../../types/types";
@@ -27,7 +27,7 @@ const DonateForm = () => {
       <header className={styles.header}>
         <h2 className={styles.heading}>
           <span className={styles["violet-text"]}>Be A </span>
-          <span>Donor</span>
+          <span>Partner</span>
         </h2>
         <div className={styles.underline}></div>
       </header>
@@ -67,7 +67,7 @@ const DonateForm = () => {
               <input
                 type="text"
                 name="contactPerson"
-                placeholder="Conatct Person Name"
+                placeholder="Contact Person's Name"
                 required
               />
             </div>

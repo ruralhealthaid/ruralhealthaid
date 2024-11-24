@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
 import Hero from "./Hero";
-import DonateForm from "./DonateForm";
+import PartnerForm from "./PartnerForm";
 
 const DonatePage = () => {
   return (
     <div>
       <Header />
       <Hero />
-      <DonateForm />
+      <PartnerForm />
       <Footer />
     </div>
   );

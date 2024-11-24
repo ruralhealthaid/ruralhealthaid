@@ -14,13 +14,13 @@ const Hero = () => {
           <h1 className={styles["primary-heading"]}>Small Effort</h1>
 
           <p className={styles.text}>
-            We are very much gratefull to you for donation. Your little effort
-            help us to better the health of children and pregnant women.
+            Thank you for your support! Your efforts help improve the health of
+            children and pregnant women, creating a better future together.
           </p>
 
-          <a href="/donate/#donate-form" className={styles["donate-btn"]}>
+          <a href="/partner/#partner-form" className={styles["partner-btn"]}>
             <button className={`btn--main ${styles.btn}`}>
-              <span>DONATE</span>
+              <span>PARTNER</span>
               <svg
                 width="48"
                 height="48"

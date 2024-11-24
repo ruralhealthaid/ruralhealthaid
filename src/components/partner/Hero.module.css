@@ -1,0 +1,159 @@
+.wrapper {
+    height: 82svh;
+    position: relative;
+}
+
+.hero-img{
+    height: 100%;
+    width: 100%;
+
+    object-fit:cover;
+}
+
+.linear-film{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(to right, rgba(247, 244, 244));
+}
+
+.content {
+    padding: 13.5rem 8rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 120;
+
+    display: flex;
+    gap: 8rem;
+}
+
+.text-wrapper h1{
+    font-size: 5.6rem;
+    max-width: 47rem;
+}
+
+.blue-heading{
+    color: var(--color--violet);
+}
+
+.primary-heading{
+    margin-bottom: 5.3rem;
+}
+
+.text{
+    font-weight:300;
+    margin-bottom: 8rem;
+}
+
+.partner-btn{
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 1rem;
+    padding: 1.3rem 2.4rem 1.3rem 3rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.btn span{
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+.img{
+    width: 66.2rem; 
+    height: 50.6rem;
+}
+
+
+@media (max-width: 81.25em) {
+    .img{
+        width: 60rem; 
+        height: 45rem;
+    }
+
+    .text-wrapper h1{
+        font-size: 4.8rem;
+    }
+}
+
+@media (max-width:70.5em) {
+    .primary-heading{
+        margin-bottom: 3.2rem;
+    }
+
+    .text{
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media (max-width:62.5em) {
+    .text-wrapper h1{
+        font-size: 4.2rem;
+    }
+    
+    .img{
+        width: 40rem; 
+        height: 25rem;
+    }
+}
+
+@media (max-width:50em) {
+    .content{
+        padding: 4.8rem 4rem;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .text{
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .btn{
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .btn span{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:25em) {
+    .img{
+        width: 22rem; 
+        height: 15rem;
+    }
+
+    .content{
+        padding: 0;
+        top: 2rem;
+    }
+
+    .text-wrapper h1{
+        font-size: 2.4rem;
+        width: 100%;
+    }
+
+    .btn{
+        margin-top: 4.8rem;
+    }
+}
