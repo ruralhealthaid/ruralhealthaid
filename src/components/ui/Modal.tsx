@@ -17,7 +17,6 @@ const ModalOverlay: React.FC<{ children: ReactNode }> = (props) => {
 
 const portalElement = document.getElementById("overlays")!;
 
-console.log("Modal works...");
 const Modal: FC<{
   children: ReactNode;
   onClose: MouseEventHandler<HTMLDivElement>;

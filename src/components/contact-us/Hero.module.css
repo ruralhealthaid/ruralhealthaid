@@ -174,3 +174,84 @@
 .message strong{
     font-size: 2rem;
 }
+
+
+@media (max-width: 78.875em) {
+    .wrapper{
+        gap: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    } 
+}
+
+
+@media (max-width: 68.75em) {
+    .wrapper{
+        gap: 8rem;
+        grid-template-columns: 40% 1fr;
+    } 
+
+    .desc h1{
+        font-size: 5.6rem;
+    }
+}
+
+
+@media (max-width: 50em) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+
+@media (max-width: 25em) {
+    .form{
+        padding-right:  1rem;
+        padding-left:  1rem;
+    }
+
+    .names{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .names input, .textarea, .email{
+        font-size: 1.4rem;
+    }
+
+    .textarea{
+        padding: 2rem 1.6rem;
+    }
+
+    .submit-btn{
+        font-size: 1.6rem;
+    }
+
+    .message, .message strong{
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 25em) {
+    .wrapper{
+        padding-top: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    } 
+
+   .desc h1{
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+   .desc p{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .desc a:link{
+        font-size: 1.6rem;
+    }
+}

@@ -36,3 +36,17 @@
     font-weight: 300;
     line-height: 30px;
 }
+
+@media (max-width:50em) {
+    .wrapper{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width:25em) {
+    .wrapper{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

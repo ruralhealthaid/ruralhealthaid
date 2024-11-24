@@ -34,8 +34,8 @@ const Hero = () => {
       <div className={styles.desc}>
         <h1>Contact Us</h1>
         <p>
-          Email, call or complete the form to learn more about Rural HealthAid
-          (RHAI) and support our work.
+          Email, call or complete the form below to learn more about Rural
+          HealthAid (RHAI) and support our work.
         </p>
 
         <a href="mailto:info@rhai.org">info@rhai.org</a>
@@ -120,7 +120,7 @@ const Hero = () => {
               </p>
             )}
             <p className={styles.message}>
-              You contacting us, you give us the chance to <strong>help</strong>{" "}
+              You contacting us, gives us the chance to <strong>help</strong>{" "}
               the
               <strong> vulnerable</strong> in <strong>Ghana</strong>!!!
             </p>
