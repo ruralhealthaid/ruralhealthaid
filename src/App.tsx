@@ -35,7 +35,7 @@ function App() {
       element: <ContactUsPage />,
     },
     {
-      path: "/donate",
+      path: "/partnership",
       element: <DonatePage />,
     },
     {

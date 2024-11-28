@@ -10,14 +10,22 @@
     padding: 3rem 0 5rem 0;
 }
 
-.btns {
+.links {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.btn{
+.btn{      
     align-self: flex-start;
+}
+          
+.btn:link, .btn:visited{
+    text-decoration: none;
+}
+
+.partner:visited{
+    color: var(--color-black);
 }
 
 .features{
@@ -55,7 +63,7 @@
        display: block;
     }
     
-    .btns{
+    .links{
         flex-direction: row;
     }
 
@@ -103,7 +111,7 @@
         text-align: center;
     }
 
-    .btns{
+    .links{
         justify-content: center;
         margin-bottom: 5.8rem;
     }

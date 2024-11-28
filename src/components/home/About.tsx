@@ -15,9 +15,13 @@ const About = () => {
           services that empower families, promote preventive care, and foster
           community resilience regardless of their socio-economic status.
         </p>
-        <div className={styles.btns}>
-          <button className={`btn--main ${styles.btn}`}>Read more</button>
-          <button className={`btn--outline ${styles.btn}`}>Donate Now</button>
+        <div className={styles.links}>
+          <a href="/about-us" className={`btn--main ${styles.btn} ${styles["read-more"]}`}>
+            Read more
+          </a>
+          <a href="/partnership" className={`btn--outline ${styles.btn} ${styles.partner}`}>
+            Partner
+          </a>
         </div>
       </div>
 
