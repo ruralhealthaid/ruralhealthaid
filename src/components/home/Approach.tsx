@@ -6,7 +6,7 @@ const Approach = () => {
     <section className={styles.section}>
       <h3>OUR APPROACH</h3>
       <p>
-        RHAI employs a{" "}
+        RHA employs a{" "}
         <strong>
           community-driven approach, emphasizing preventive healthcare,
           community engagement

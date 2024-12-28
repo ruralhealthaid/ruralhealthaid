@@ -7,7 +7,7 @@ const JoinUs = () => {
       <h3>Get Involved</h3>
       <p className={styles["sec-desc"]}>
         Join us in our mission to make a difference in the lives of rural
-        families. You can support RHAI by:
+        families. You can support RHA by:
       </p>
       <div className={styles["ul-btn"]}>
         <ul className={styles.ul}>

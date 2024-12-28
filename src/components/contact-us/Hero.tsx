@@ -35,10 +35,10 @@ const Hero = () => {
         <h1>Contact Us</h1>
         <p>
           Email, call or complete the form below to learn more about Rural
-          HealthAid (RHAI) and support our work.
+          HealthAid (RHA) and support our work.
         </p>
 
-        <a href="mailto:info@rhai.org">info@rhai.org</a>
+        <a href="mailto:info@rha.org">info@rha.org</a>
         <a href="tel:+233530903678">(+233) (0) 53-090-3678</a>
         <img src={contactImg} alt="woman sitting with children" />
       </div>

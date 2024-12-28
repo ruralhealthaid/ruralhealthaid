@@ -8,7 +8,7 @@ const Structure = () => {
         <div className={styles.structure}>
           <h4>Organizational Structure</h4>
           <p>
-            RHAI is governed by a Board of Directors comprised of experts in
+            RHA is governed by a Board of Directors comprised of experts in
             public health, maternal and child health, non-profit management,
             finance, and community development. The day-today operations are
             overseen by an Executive Director, who leads a team of dedicated
@@ -35,7 +35,7 @@ const Structure = () => {
       <div className={styles.sustainability}>
         <h4>Sustainability</h4>
         <p>
-          RHAI is committed to building sustainable healthcare solutions by
+          RHA is committed to building sustainable healthcare solutions by
           training local healthcare workers, empowering communities, and
           advocating for policy changes that support long-term health
           improvements.

@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={styles["linear-film"]}></div>
 
       <div className={styles["text-wrapper"]}>
-        <h3>RURAL HEALTH INITIATIVE</h3>
+        <h3>RURAL HEALTH AID</h3>
         <p className={styles.heading}>Building Resilient Communities</p>
         <p className={styles.text}>
           Providing comprehensive health aid services that empower families,

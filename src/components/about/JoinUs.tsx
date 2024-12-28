@@ -10,7 +10,7 @@ const JoinUs = () => {
       <div className={styles.text}>
         <span>JOIN US</span>
         <span> @ </span>
-        <span>RHAI</span>
+        <span>RHA</span>
       </div>
     </section>
   );

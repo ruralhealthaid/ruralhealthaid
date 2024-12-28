@@ -25,9 +25,9 @@ const Programs = () => {
         <div className={styles["service-desc"]}>
           <h2>Mobile Health Units</h2>
           <p>
-            RHAI operates mobile health units equipped with medical
-            professionals and essential equipment to reach remote communities
-            and provide onsite healthcare service
+            RHA operates mobile health units equipped with medical professionals
+            and essential equipment to reach remote communities and provide
+            onsite healthcare service
           </p>
         </div>
         <img src={programsImg2} alt="a tailor" />
@@ -38,8 +38,8 @@ const Programs = () => {
         <div className={styles["service-desc"]}>
           <h2>Advocacy and Policy Engagement</h2>
           <p>
-            RHAI advocates for policies and programs that prioritize maternal
-            and family health in rural areas, working with policymakers and
+            RHA advocates for policies and programs that prioritize maternal and
+            family health in rural areas, working with policymakers and
             stakeholders to address systemic barriers to healthcare access.
           </p>
         </div>
