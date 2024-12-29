@@ -30,7 +30,7 @@ const Header = () => {
             <Link to="/about-us">ABOUT US</Link>
             <Link to="/programs">PROGRAMS</Link>
             <Link to="/contact-us">CONTACT US</Link>
-            <Link to="/donate" className={styles.donate}>
+            <Link to="/partnership" className={styles.donate}>
               PARTNERSHIP
             </Link>
           </nav>
@@ -46,7 +46,7 @@ const Header = () => {
           <Link to="/about-us">ABOUT US</Link>
           <Link to="/programs">PROGRAMS</Link>
           <Link to="/contact-us">CONTACT US</Link>
-          <Link to="/donate" className={styles.donate}>
+          <Link to="/partnershipgit " className={styles.donate}>
             PARTNERSHIP
           </Link>
         </nav>

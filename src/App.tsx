@@ -16,7 +16,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Navigate to="/home" replace />,
+      element: <HomePage />,
     },
     {
       path: "/home",
