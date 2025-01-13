@@ -8,7 +8,7 @@ const Contacts = () => {
         <h1 className={styles["main-header"]}>Connect with Us</h1>
         <h4>Headquarters</h4>
         <p className={styles.location}>
-          Rural HealthAid (RHA)
+          Rural Health Aid (RHA)
           <br /> BLK 8E, SSNIT Flats,
           <br />
           Tamale,

@@ -35,7 +35,7 @@ const Hero = () => {
         <h1>Contact Us</h1>
         <p>
           Email, call or complete the form below to learn more about Rural
-          HealthAid (RHA) and support our work.
+          Health Aid (RHA) and support our work.
         </p>
 
         <a href="mailto:info@rha.org">info@rha.org</a>

@@ -15,7 +15,7 @@ const Footer = () => {
           <img
             className={styles["logo-img"]}
             src={logoImg}
-            alt="Rural HealthAid"
+            alt="Rural Health Aid"
           />
           <hr className={styles.hr} />
           <div className={styles.socials}>
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className={styles.copyright}>
-        <p>&copy; 2024 Rural HealthAid, All Rights Reserved</p>
+        <p>&copy; 2024 Rural Health Aid, All Rights Reserved</p>
       </div>
     </footer>
   );

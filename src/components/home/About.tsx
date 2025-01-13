@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles["what-we-do"]}>
         <h3>WHAT WE DO</h3>
         <p className={`body ${styles.body}`}>
-          Rural HealthAid (RHA) is a non-governmental organization (NGO)
+          Rural Health Aid (RHA) is a non-governmental organization (NGO)
           dedicated to improving maternal and family health outcomes in rural
           communities with low incomes and limited access to healthcare
           facilities. Founded in 2024, RHA provides comprehensive health aid
@@ -16,10 +16,16 @@ const About = () => {
           community resilience regardless of their socio-economic status.
         </p>
         <div className={styles.links}>
-          <a href="/about-us" className={`btn--main ${styles.btn} ${styles["read-more"]}`}>
+          <a
+            href="/about-us"
+            className={`btn--main ${styles.btn} ${styles["read-more"]}`}
+          >
             Read more
           </a>
-          <a href="/partnership" className={`btn--outline ${styles.btn} ${styles.partner}`}>
+          <a
+            href="/partnership"
+            className={`btn--outline ${styles.btn} ${styles.partner}`}
+          >
             Partner
           </a>
         </div>
