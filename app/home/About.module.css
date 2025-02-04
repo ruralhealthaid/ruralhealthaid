@@ -1,0 +1,168 @@
+.wrapper {
+  margin: 8rem 10rem;
+
+  display: grid;
+  gap: 9.8rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.what-we-do .body {
+  padding: 3rem 0 5rem 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.btn {
+  align-self: flex-start;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+}
+
+.partner:visited {
+  color: var(--color-black);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.features li {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  box-shadow: 0.2rem 0.4rem 1.2rem 0.1rem rgba(25, 34, 69, 37%);
+  border-radius: 3rem;
+  padding: 1.3rem 4.2rem 1.3rem 2rem;
+}
+
+.feat-icon {
+  width: 16.8rem;
+  height: 17.2rem;
+  border-radius: 3rem;
+  object-fit: cover;
+}
+
+.feat-text h4 {
+  margin-bottom: 1.1rem;
+}
+
+@media (max-width: 75em) {
+  .features li {
+    flex-direction: column;
+  }
+
+  .feat-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .wrapper {
+    display: block;
+  }
+
+  .links {
+    flex-direction: row;
+  }
+
+  .features {
+    flex-direction: row;
+    margin-top: 2.4rem;
+  }
+
+  .features li {
+    padding: 0;
+    flex-wrap: true;
+  }
+
+  .features li img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3rem 3rem 0 0;
+  }
+
+  .feat-text {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5.6rem;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    margin: 4rem 5rem;
+  }
+}
+
+@media (max-width: 38.125em) {
+  .what-we-do {
+    text-align: center;
+  }
+
+  .links {
+    justify-content: center;
+    margin-bottom: 5.8rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 22.5em) {
+  .wrapper {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+  }
+
+  .what-we-do .body {
+    padding: 3rem 0 5rem 0;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .features {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .feat-text h4 {
+    font-size: 1.8rem;
+  }
+
+  .feat-text p {
+    font-size: 1.2rem;
+  }
+
+  .features li {
+    width: 22rem;
+  }
+}
